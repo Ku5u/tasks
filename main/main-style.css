@@ -8,6 +8,7 @@
   border-radius: 15px;
   border: 0.1px solid rgba(255, 255, 255, 0);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.034);
+  background-color: white;
 }
 
 .box-1 {
@@ -212,4 +213,8 @@ input{
   cursor: pointer;
   justify-content: center;
   position: absolute;
+}
+
+body{
+  background-color: rgba(199, 199, 199, 0.062);
 }
