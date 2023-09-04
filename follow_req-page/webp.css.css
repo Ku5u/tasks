@@ -25,10 +25,10 @@ header {
 }
 
 #titleText {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 20px;
-    font-family:Georgia, Times, 'Times New Roman', serif;
-    color: #504e4e;
+    font-family: sans-serif;
+    color: #5e5d5d;
 }
 
 #titleImage {
@@ -47,7 +47,7 @@ header {
     border-radius: 0.3rem;
     border: 1px rgba(128, 128, 128, 0.4) solid;
     padding-left: 0.5rem;
-    margin-left: 17px;
+    margin-left: 10px;
 }
 
 #userSection {
@@ -79,24 +79,39 @@ header {
 #menu{
     height: 30px;
     position: absolute;
+    width: 190px;
+    height: 420px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #menuList {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding: 1.5rem;
+    gap: 0.5rem;
 }
 
 #menuList a {
+    border-radius: 10px;
     text-decoration: none;
 }
 
-#menuList a li {
+#menuList a:hover{
+    background-color: #4E5D78;
+}
+
+#menuList a li {    
+    height: 40px;
+    width: 190px;
+    padding: 10px 15px 10px 20px;
     color: grey;
     display: flex;
     gap: 0.3rem;
+}
+
+#menuList a li:hover{
+    color: white;
 }
 
 .spacing{
@@ -188,6 +203,7 @@ header {
 #fr-name{
     font-size: 15px;
     margin-left: 15px;
+    color: black;
 }
 #fr-img{
     object-fit: cover;

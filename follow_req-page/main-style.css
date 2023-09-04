@@ -121,7 +121,7 @@
   cursor: pointer;
 }
 
-.event-button:active {
+.event-button:hover {
   border-color: transparent;
   background-color: rgb(80, 123, 241);
   color: white;
