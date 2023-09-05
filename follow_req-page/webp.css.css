@@ -153,7 +153,7 @@ header {
     display: flex;
 }
 .story-img-text{
-    margin-left: 10px;
+    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -170,6 +170,8 @@ header {
 .story-txt{
     justify-content: center;
     text-align: center;
+    font-size: 14px;
+    font-weight: 100;
 }
 
 #friendList {
@@ -177,7 +179,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    padding-left: 0.5rem;
 }
 
 #friendList a {
@@ -192,6 +193,13 @@ header {
     /* color: gray */
 }
 
+.dot{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 #friendList a li img {
     height: 35px;
     width: 35px;
@@ -199,12 +207,13 @@ header {
     border: 1px solid #ddd;
 }
 
-
 #fr-name{
+    width: 150px;
     font-size: 15px;
-    margin-left: 15px;
+    margin-left: 20px;
     color: black;
 }
+
 #fr-img{
     object-fit: cover;
 }
