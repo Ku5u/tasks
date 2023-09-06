@@ -172,7 +172,31 @@ header {
     text-align: center;
     font-size: 14px;
     font-weight: 100;
+    color: rgb(87, 87, 87);
 }
+
+#friendHeading{
+    height: 22px;
+    width: 214px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+}
+
+#dots{
+    height: 22px;
+    width:35px;
+    object-fit: cover;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+#dots-1{
+    height: 22px;
+    width:30px;
+    object-fit: cover;
+  }
 
 #friendList {
     list-style-type: none;
@@ -201,8 +225,8 @@ header {
 }
 
 #friendList a li img {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     border: 1px solid #ddd;
 }
@@ -210,8 +234,14 @@ header {
 #fr-name{
     width: 150px;
     font-size: 15px;
+    font-weight: bold;
     margin-left: 20px;
-    color: black;
+    color: rgb(87, 87, 87);
+}
+
+.fr-time{
+    color: grey;
+    font-size: 14px;
 }
 
 #fr-img{
