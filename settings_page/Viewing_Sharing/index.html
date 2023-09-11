@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Remember to add a title here -->
+    <title>Web Page Design</title>
+    <!-- linking css sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- linking awesome font script for icons -->
+    <script src="https://kit.fontawesome.com/d1bf1bacdb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="title" class="headerItem">
+                <img src="chat.png" alt="msg" id="titleImage">
+                <span id="titleText">Meetmax</span>
+            </div>
+            <div id="headerMid" class="headerItem">
+                <input type="text" id="headerSearch" placeholder="&#128269; Search for something here..."></input>
+            </div>
+            <div id="userSection" class="headerItem">
+                <span id="userText">JOHN DOE</span>
+                <img src="profile-picture.jpg" alt="userPic" id="userImage">
+            </div>
+        </header>
+        <!-- This div contains both Nav Bars and middle content -->
+        <div id="mainContent">
+            <nav id="menu">
+                <ul id="menuList">
+                    <a href="#">
+                        <li> <i class="fa-solid fa-border-all "></i>Feed</li>
+                    </a>
+                    <a href="#">
+                        <li> <i class="fa-solid fa-user-group spacing"></i> My Community</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-message spacing"></i> Messages</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-bell spacing"></i> Notification</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-globe spacing"></i> Explore</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user spacing"></i> Profile</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-gear spacing"></i> Settings</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-right-from-bracket spacing"></i> Logout</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <div class="feed-1">
+
+                <div class="settings">
+
+                    <div class="options">
+                        <div class="edit-profile sub-option"><i class="fa fa-user" aria-hidden="true"></i>  Edit Profile</div>
+                        <div class="language sub-option"><i class="fa fa-language" aria-hidden="true"></i>  Language</div>
+                        <div class="blocking  sub-option"><i class="fa fa-ban" aria-hidden="true"></i>  Blocking</div>
+                        <div class="notification  sub-option"><i class="fa fa-bell-o" aria-hidden="true"></i>  Notification</div>
+                        <div class="password-security  sub-option"><i class="fa fa-shield" aria-hidden="true"></i>  Password & Security</div>
+                        <div class="activity-log  sub-option"><i class="fa fa-history" aria-hidden="true"></i>  Activity Log &emsp; > </div>
+                        <div class="viewing-sharing  sub-option"><i class="fa fa-eye" aria-hidden="true"></i>  Viewing & Sharing</div>
+                    </div>
+
+                    <div class="viewing_sharing">
+                        <div class="vs-text">Viewing and Sharing</div>
+
+                        <div class="post-visibility permissions">
+                            <div>Who can see your post?</div>
+                            <br> <input type="radio" id="post-visibility1" class="radio" name="post-visibility"><label for="post-visibility1"> Everyone</label> <br>
+                            <input type="radio" id="post-visibility2" class="radio" name="post-visibility"><label for="post-visibility2"> Followers</label> <br>
+                            <input type="radio" id="post-visibility3" class="radio" name="post-visibility"><label for="post-visibility3"> Only me</label>
+                        </div> 
+                        
+                        <div class="profile-visibility permissions">
+                            <div>Who can see your profile?</div>
+                            <br> <input type="radio" id="profile-visibility1" class="radio" name="profile-visibility"><label for="profile-visibility1"> Everyone</label><br>
+                            <input type="radio" id="profile-visibility2" class="radio" name="profile-visibility"><label for="profile-visibility2"> Followers</label><br>
+                            <input type="radio" id="profile-visibility3" class="radio" name="profile-visibility"><label for="profile-visibility3"> Only me</label>
+                        </div>
+
+                        <div class="post-share-permission permissions">
+                            <div>Allow others to share your post to their Timeline?</div>
+                            <br> <input type="radio" id="post-share-permission1" class="radio" name="post-share-permission"><label for="post-share-permission1"> On</label><br>
+                            <input type="radio" id="post-share-permission2" class="radio" name="post-share-permission"><label for="post-share-permission2"> Off</label>
+                        </div>
+
+                        <div class="follow-criteria permissions">
+                            <div>Who can follow you?</div>
+                            <br> <input type="radio" id="follow-criteria1" class="radio" name="follow-criteria"><label for="follow-criteria1"> Everyone</label><br>
+                            <input type="radio" id="follow-criteria2" class="radio" name="follow-criteria"><label for="follow-criteria2"> Off</label>
+                        </div>
+
+                </div>
+
+            </div>
+        </div>
+</body>
+</html>
