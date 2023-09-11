@@ -66,10 +66,11 @@ header {
 }
 
 #userImage {
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     background-color: yellow;
-    border-radius: 50%;
+    border-radius: 30%;
+    object-fit: cover;
 }
 
 #mainContent {
