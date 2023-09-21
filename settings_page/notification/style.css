@@ -208,6 +208,7 @@ header {
 .cmd-txt{
     width: 100px;
     margin-right: 50px;
+    padding-top: 3px;
     color: rgb(95, 95, 95);
     font-size: 15px;
     font-weight: bold;
