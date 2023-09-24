@@ -211,10 +211,19 @@ header {
     padding: 13px;
 }
 
+.device-location{
+    color: rgb(95, 95, 95); 
+}
+
 .app-sa{
     font-size: 15px;
     margin-top: 20px;
     display: flex;
+    color: rgba(95, 95, 95, 0.5); 
+}
+
+.status-activity-1{
+    color: rgb(0, 186, 0);
 }
 
 #see-all{
